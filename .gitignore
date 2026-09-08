@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets / environment files
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# Generated Meraki reports
+Meraki_SSID_Security_Report_*.csv
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
